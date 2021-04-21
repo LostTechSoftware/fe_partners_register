@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap');
+
+.TwoFactorAuthenticationCointainer{
+  display: flex;
+  flex-direction: column;
+  background-color: #ffe115;
+  width: 100vw;
+  height: 100vh;
+}
+
+.TwoFactorAuthenticationCointainer form{
+  display: flex;
+  flex-direction: column;
+  width: 48rem;
+  height: auto;
+  position: absolute;
+  right:0;
+  margin-top: 16rem;
+  margin-right: 18.7rem;
+}
+
+.TwoFactorAuthenticationCointainer form input{
+  width: 100%;
+  height: 8rem;
+  border-radius: 1.5rem;
+  border: none;
+  outline: none;
+  font-size: 2.5rem;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  font-weight: 100;
+  color:rgb(51, 51, 51);
+}
+
+.TwoFactorAuthenticationCointainer form h1{
+  margin-bottom: 10rem;
+  justify-self: center;
+  align-self: center;
+}
+
+section form h1{
+  margin-bottom: 5rem;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 11.1rem;
+  color: #ffffff;
+}
+section form h2{
+  font-size: 4rem;
+  font-weight: 700;
+  font-style: normal;
+  color: #000000;
+
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+section form button{
+  background-color: rgb(255, 202, 21);
+  border: none;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+  border-radius: 15px;
+  margin-top: 6rem;
+  width: 32rem;
+  align-self: center;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.foodZilla {
+  margin-top: 5rem;
+  margin-left: 5rem;
+  width: 29.4rem;
+  height: 5.8rem;
+}

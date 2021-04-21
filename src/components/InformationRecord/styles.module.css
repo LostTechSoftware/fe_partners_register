@@ -1,0 +1,143 @@
+.InformationRecordCointainer{
+  display: flex;
+  flex-direction: column;
+  background-color: #ffe115;
+  width: 100vw;
+  height: 100vh;
+}
+header{
+  margin-left: 9rem;
+}
+header h1{
+  font-size: 5rem;
+  font-weight: 700;
+  margin-top: 3rem;
+}
+main{
+  display: flex;
+  flex-direction: row;
+  margin-top: 4rem;
+  margin-left: 7rem;
+}
+h2{
+  font-size: 3.5rem;
+  margin-left: 1rem;
+}
+.dataContainer{
+  margin-right: 10rem;
+}
+.text{
+  width: 40rem;
+  padding: 1.5rem;
+  border-radius: 8px;
+  font-size: 2.3rem;
+}
+.SwitchContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.inputContainer{
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+.dataContainer3{
+  padding-top: 4rem;
+  margin-right: 0;
+}
+.text{
+  margin-bottom: 4rem;
+}
+
+.Switch{
+  margin-bottom: 1rem;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
+}
+
+.inputContainer div {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2.5rem;
+}
+
+.inputContainer input{
+  font-size: 2.3rem;
+  border-radius: 8px;
+  width: 22rem;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+}
+footer button{
+  background-color: rgb(255, 202, 21);
+  position: absolute;
+  border: none;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+  border-radius: 1.5rem;
+  width: 32rem;
+  padding: 1rem;
+  cursor: pointer;
+  margin-left: 70rem;
+}
+header{
+  display: flex;
+  flex-direction: row;
+}
+header img{
+  width: 4rem;
+  position: absolute;
+  cursor: pointer;
+}
+.filePlusContainer{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 4rem;
+  margin-top: 0.5rem;
+  
+}
+.filePlusContainer div{
+  display: flex;
+  width: 13.5rem;
+  height: 13.5rem;
+  background-color: #ffca15;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.filePlusContainer div input{
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+header h2{
+  align-self: center;
+}
+
+footer img{
+  width: 31.9rem;
+  height: 6.3rem;
+  margin-left: 10rem;
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 1220px){
+  .dataContainer{
+    margin-right: 3rem;
+  }
+  footer button{
+    margin-left: 55rem;
+  }
+}
+  

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap');
+
+.RegistrationOfEstablishmentsCointainer{
+  display: flex;
+  flex-direction: column;
+  background-color: #ffe115;
+  width: 100vw;
+  height: 100vh;
+}
+
+.RegistrationOfEstablishmentsCointainer form{
+  display: flex;
+  flex-direction: row;
+  margin-left: 10rem;
+  margin-top: 5rem;
+}
+
+.RegistrationOfEstablishmentsCointainer form div h2{
+  font-weight: 100;
+}
+.RegistrationOfEstablishmentsCointainer form div input{
+  width: 50rem;
+  height: 8rem;
+  border-radius: 1.5rem;
+  border: none;
+  outline: none;
+  font-size: 2.5rem;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  font-weight: 100;
+  color:rgb(51, 51, 51);
+}
+.RegistrationOfEstablishmentsCointainer h1{
+  font-size: 5rem;
+  font-weight: 700;
+  color: black;
+  margin-left: 10rem;
+  margin-top: 2.5rem;
+}
+.RegistrationOfEstablishmentsCointainer form div{
+  margin-right: 30rem;
+
+}
+.spaceBetweenComponents{
+  margin-top: 10rem;
+}
+.bottomSection{
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+}
+.bottomSection img{
+  margin-top: 5rem;
+  margin-left: 10rem;
+  width: 31.9rem;
+  height: 6.3rem;
+}
+.bottomSection button{
+  background-color: rgb(255, 202, 21);
+  border: none;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+  border-radius: 15px;
+  width: 32rem;
+  padding: 1rem;
+  cursor: pointer;
+
+  margin-left: 66rem;
+  margin-bottom: 10rem;
+}

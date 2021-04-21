@@ -1,0 +1,25 @@
+.CrashedCointainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.text1{
+  font-weight: 700;
+  font-size: 5.9rem;
+}
+.text2{
+  font-weight: 700;
+  font-size: 7.9rem;
+}
+
+span{
+  align-self: center;
+  margin-left: 25rem;
+}
+
+.CrashedCointainer img{
+  margin-top: 10rem;
+  width: 62.1rem;
+  height: 62.1rem;
+  align-self: center;
+}

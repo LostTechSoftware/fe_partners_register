@@ -1,0 +1,12 @@
+.LoadingCointainer{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loader{
+  width: 334px;
+  height: 334px;
+  fill: grey;
+}

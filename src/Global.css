@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: "Roboto", sans-serif;
+}
+html { 
+	font-size: 10px;
+}
+@media(max-width: 1490px){
+	html { 
+		font-size: 9px;
+	}
+}
+@media(max-width: 1350px){
+	html { 
+		font-size: 8px;
+	}
+}
+@media(max-width: 1090px){
+	html { 
+		font-size: 7px;
+	}
+}
