@@ -13,9 +13,9 @@
     <a href="https://www.notion.so/foodzillabr/Engineering-Wiki-c8f9d76fc8c5490dbdd321dcf9e05e3f"><strong>Veja a documentação »</strong></a>
     <br />
     <br />
-    <a href="https://partners.foodzilla.com.br">View Prod</a>
+    <a href="https://partners-register.foodzilla.com.br">View Prod</a>
     ·
-    <a href="https://staging-partners.foodzilla.com.br">View staging</a>
+    <a href="https://staging-partners-register.foodzilla.com.br">View staging</a>
     ·
     <a href="https://helpcenter.foodzilla.com.br">Report Bug</a>
   </p>
@@ -87,7 +87,7 @@ Para iniciar o projeto é necessário seguir os passos abaixo:
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/LostTechSoftware/fe_partners_dashboard
+   git clone https://github.com/LostTechSoftware/fe_partners_register
    ```
 2. Install packages
    ```sh
@@ -95,7 +95,7 @@ Para iniciar o projeto é necessário seguir os passos abaixo:
    ```
 3. Clone environment keys
    ```JS
-   heroku config -a foodzilla-partners-staging -s >> .env
+   heroku config -a foodzilla-partners-register -s >> .env
    ```
 
 <!-- USAGE EXAMPLES -->
