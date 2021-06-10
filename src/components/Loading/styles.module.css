@@ -1,12 +1,11 @@
-.LoadingCointainer{
-  display:flex;
+.LoadingCointainer {
+  display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100%;
 }
 
-.loader{
-  width: 334px;
-  height: 334px;
+.loader {
+  height: 25px;
   fill: grey;
 }

@@ -1,13 +1,6 @@
-import React, { useState } from "react"
 import styles from './styles.module.css'
 
-export default function Switch({switchText}){
-  
-  const [isChecked, setIsChecked] = useState(false);
-  
-  const textbutton = switchText;
-
-  console.log(textbutton)
+export default function Switch({switchText, isChecked, setIsChecked}){  
   return(
     <div className={styles.SwitchContainer}>
       <label className={styles.Switch}>
@@ -21,7 +14,7 @@ export default function Switch({switchText}){
         />
         <span className={styles.SwitchSpan} />
       </label>
-      <h2>{textbutton}</h2>
+      <h2>{switchText}</h2>
     </div>
   )
 }

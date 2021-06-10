@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap");
 
-.LoginCointainer{
+.LoginCointainer {
   display: flex;
   flex-direction: column;
   background-color: #ffe115;
@@ -8,18 +8,18 @@
   height: 100vh;
 }
 
-.LoginCointainer form{
+.LoginCointainer form {
   display: flex;
   flex-direction: column;
   width: 48rem;
   height: auto;
   position: absolute;
-  right:0;
+  right: 0;
   margin-top: 16rem;
   margin-right: 18.7rem;
 }
 
-.LoginCointainer form input{
+.LoginCointainer form input {
   width: 100%;
   height: 8rem;
   border-radius: 1.5rem;
@@ -29,22 +29,22 @@
   padding: 1.5rem;
   box-sizing: border-box;
   font-weight: 100;
-  color:rgb(51, 51, 51);
+  color: rgb(51, 51, 51);
 }
 
-.LoginCointainer form h1{
+.LoginCointainer form h1 {
   justify-self: center;
   align-self: center;
 }
 
-section form h1{
+section form h1 {
   white-space: pre;
   font-weight: 700;
   font-style: normal;
   font-size: 111px;
   color: #ffffff;
 }
-section form h2{
+section form h2 {
   white-space: pre;
   font-size: 4rem;
   font-weight: 700;
@@ -55,7 +55,8 @@ section form h2{
   margin-bottom: 2.5rem;
 }
 
-section form button{
+section form button {
+  transition: 0.3s;
   background-color: rgb(255, 202, 21);
   border: none;
   font-size: 3rem;
@@ -67,6 +68,12 @@ section form button{
   align-self: center;
   padding: 1rem;
   cursor: pointer;
+}
+
+.disabledButton {
+  transition: 0.3s;
+  opacity: 0.32;
+  background-color: #fff;
 }
 
 .foodZilla {
